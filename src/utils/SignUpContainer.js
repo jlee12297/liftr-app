@@ -144,10 +144,10 @@ class SignUpContainer extends Component {
 			if (this.state.radioButtonCoach == true) {
 				this.submitSignupCoach(user)
 				console.log(user)
-				window.location = '/login'
+				// window.location = '/login'
 			} else this.submitSignupClient(user)
 			console.log(user)
-			window.location = '/login'
+			// window.location = '/login'
 		}
 		// } else {
 		//     const errors = payload.errors;

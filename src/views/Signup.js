@@ -45,7 +45,7 @@ const SignUpForm = ({
 
   }
 
-  let lebronJames = useHistory();
+  let history = useHistory();
 
 
   return (
@@ -104,7 +104,7 @@ const SignUpForm = ({
           type="submit"
           label="submit"
           onClick={() => {
-            lebronJames.push("/login")
+            this.history.push("/login")
           }}
         />
         <button className="superCoolButton" type="button" onClick={handleOnClick}>{buttonText}</button>
@@ -113,7 +113,7 @@ const SignUpForm = ({
       <p>
         Aleady have an account? <br />
         <button className="logButton" onClick={() => {
-          lebronJames.push("/login");
+          history.push("/login");
         }}>Log In</button>
       </p>
     </div>
