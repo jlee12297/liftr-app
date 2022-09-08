@@ -17,7 +17,7 @@ const Profile = () => {
 	// const [imageSelected, setImageSelected] = useState(localStorage.getItem('publicId'))
 	const [imageSelected, setImageSelected] = useState("");
 
-	const [publicId, setPublicId] = useState((localStorage.getItem("coachId")));
+	const [publicId, setPublicId] = useState((localStorage.getItem("publicId")));
 
 	const [profile, setProfile] = useState({
 		firstName: '',
@@ -54,7 +54,7 @@ const Profile = () => {
 						status: response.data.status,
 						publicId: response.data.publicId
 					}
-					// localStorage.setItem("publicId", publicId)
+					localStorage.setItem("publicId", publicId)
 					// console.log(localStorage.getItem(publicId))
 					console.log(profileT)
 					setProfile(profileT)
@@ -76,7 +76,7 @@ const Profile = () => {
 						status: response.data.status,
 						publicId: response.data.publicId
 					}
-					// localStorage.setItem("publicId", publicId)
+					localStorage.setItem("publicId", publicId)
 					// console.log(localStorage.getItem("publicId"))
 					setProfile(profileT)
 				})

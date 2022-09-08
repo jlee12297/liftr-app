@@ -103,9 +103,9 @@ const SignUpForm = ({
           primary={true}
           type="submit"
           label="submit"
-        // onClick={() => {
-        //   lebronJames.push("/login")
-        // }}
+          onClick={() => {
+            lebronJames.push("/login")
+          }}
         />
         <button className="superCoolButton" type="button" onClick={handleOnClick}>{buttonText}</button>
         <label for="coach"></label>
