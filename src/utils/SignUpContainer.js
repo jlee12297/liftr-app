@@ -9,7 +9,7 @@ const zxcvbn = require('zxcvbn')
 
 
 
-const URL_PREFIX = "http://localhost:3001/" || "https://lifter-backend-build.herokuapp.com/";
+const URL_PREFIX = "https://lifter-backend-build.herokuapp.com/";
 // const URL_PREFIX = 'https://lifter-backend-build.herokuapp.com/'
 
 

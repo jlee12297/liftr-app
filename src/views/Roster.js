@@ -23,7 +23,7 @@ export default function Roster() {
 
     const presetName = 'pyqqyzxb'
 
-    const URL_PREFIX = "http://localhost:3001/" || "https://lifter-backend-build.herokuapp.com/";
+    const URL_PREFIX = "https://lifter-backend-build.herokuapp.com/";
 
 
     // const URL_PREFIX = "https://lifter-backend-build.herokuapp.com/";
@@ -43,8 +43,8 @@ export default function Roster() {
             //GMS first url is just if you want to populate the roster with all clients in the database
             //GMS seconds URL should populate roster primary with only those belonging to coachid, which will by default be liftrbot 
 
-            `http://localhost:3001/api/clients/search/${localStorage.getItem("id")}`
-            // `https://lifter-backend-build.herokuapp.com/api/clients/search/${localStorage.getItem("id")}`
+            //`http://localhost:3001/api/clients/search/${localStorage.getItem("id")}`
+            `https://lifter-backend-build.herokuapp.com/api/clients/search/${localStorage.getItem("id")}`
 
         )
             .then((res) => res.json())

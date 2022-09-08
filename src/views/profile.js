@@ -8,7 +8,7 @@ import { get } from 'react-hook-form'
 const cloudNameGuy = 'ddkr1ny4l'
 const presetName = 'pyqqyzxb'
 
-const URL_PREFIX = "http://localhost:3001/" || "https://lifter-backend-build.herokuapp.com/";
+const URL_PREFIX = "https://lifter-backend-build.herokuapp.com/";
 // const URL_PREFIX = 'https://lifter-backend-build.herokuapp.com/'
 
 

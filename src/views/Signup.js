@@ -10,7 +10,7 @@ import API from '../utils/API';
 import SignUpContainer from "../utils/SignUpContainer";
 import { useHistory } from "react-router-dom";
 
-const URL_PREFIX = "http://localhost:3001/" || "http://lifter-backend-build.herokuapp.com/";
+const URL_PREFIX = "http://lifter-backend-build.herokuapp.com/";
 // const URL_PREFIX = 'https://lifter-backend-build.herokuapp.com/';
 
 

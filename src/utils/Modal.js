@@ -12,11 +12,11 @@ export default function Modal({ setOpenModal }) {
     const [filterParam, setFilterParam] = useState(["All"]);
 
     // const URL_PREFIX = 'https://lifter-backend-build.herokuapp.com/'
-    const URL_PREFIX = 'http://localhost:3001/' || 'https://lifter-backend-build.herokuapp.com/'
+    const URL_PREFIX = 'https://lifter-backend-build.herokuapp.com/'
 
     useEffect(() => {
         fetch(
-            'http://localhost:3001/api/clients/search/1'
+            `${URL_PREFIX}api/clients/search/1`
             // "https://lifter-backend-build.herokuapp.com/api/clients/search/1"
 
         )
