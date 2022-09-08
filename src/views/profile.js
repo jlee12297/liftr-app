@@ -54,7 +54,7 @@ const Profile = () => {
 						status: response.data.status,
 						publicId: response.data.publicId
 					}
-					localStorage.setItem("publicId", publicId)
+					// localStorage.setItem("publicId", publicId)
 					// console.log(localStorage.getItem(publicId))
 					console.log(profileT)
 					setProfile(profileT)
@@ -76,7 +76,7 @@ const Profile = () => {
 						status: response.data.status,
 						publicId: response.data.publicId
 					}
-					localStorage.setItem("publicId", publicId)
+					// localStorage.setItem("publicId", publicId)
 					// console.log(localStorage.getItem("publicId"))
 					setProfile(profileT)
 				})
